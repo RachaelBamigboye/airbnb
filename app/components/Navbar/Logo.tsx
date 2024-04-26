@@ -5,12 +5,12 @@ import {useRouter} from "next/navigation";
 const Logo = () => {
     const router = useRouter();
     return(
-        <image 
-        alt="Logo"
+        <Image
+        alt="logo"
         className="hidden md:block cursor-pointer"
         height="100"
         width="100"
-        src="/image"
+        src="/images/logo.png"
         />
         )
 }
