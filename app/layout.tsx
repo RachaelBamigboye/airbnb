@@ -9,7 +9,7 @@ const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Airbnb",
-  description: "Airbnb Clone",
+  description: "Airbnb Clones",
 };
 
 export default function RootLayout({
@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
-          <Modal isOpen/>
-        <Navbar />
+          <Modal isOpen />
+          <Navbar />
         </ClientOnly>
         {children}
       </body>
